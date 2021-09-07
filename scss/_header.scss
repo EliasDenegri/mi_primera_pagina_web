@@ -1,0 +1,43 @@
+/*ENCABEZADO*/
+.header {
+    display: inline-block;
+    background-color: $celesteClaro;
+    
+
+
+    .logo {
+        height: 70px;
+    }
+
+    .header-inf-cont {
+        display: inline-block;
+        
+        .inf {
+            font-size: 15px;
+            margin-top: 15px;
+            font-style: italic;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .head-icon {
+            font-size: 20px;
+        }
+    }
+}
+
+/* NAVEGADOR */
+.nav {
+    background-color: $celesteOscuro;
+
+    li:hover {
+        transform: scale(1.2);
+    }
+
+    a:hover {
+        
+        background-color: #50768a;
+    }
+}
+
+
+

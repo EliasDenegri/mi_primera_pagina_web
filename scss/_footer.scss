@@ -1,0 +1,64 @@
+/*FOOTER*/
+.footer {
+    background-color: $negroClaro;
+    color: #ffffff;
+
+    .quienes-somos {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+    .footer-icon {
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    /*Whatsapp*/
+    .whatsapp {
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        bottom: 30px;
+        right: 30px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 50px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 3);
+        z-index: 100;
+    }
+
+    .whatsapp:hover {
+        transform: scale(1.2);
+        text-decoration: none;
+        color: #0df053;
+        background: #fff;
+    }
+}
+
+/* MAPAS REDES */
+$twitter: #45a1d6;
+$facebook: #1b18c4;
+$instagram: #a1199b;
+
+
+.fa-twitter:hover {
+    transform: scale(1.2);
+    color: $twitter;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.2);
+    color: $facebook;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.2);
+    color: $instagram;
+}
