@@ -17,10 +17,6 @@
 /* NAVEGADOR */
 .nav {
   background-color: #456576; }
-  .nav li:hover {
-    transform: scale(1.2); }
-  .nav a:hover {
-    background-color: #50768a; }
 
 /*SECCION*/
 .fondo {
