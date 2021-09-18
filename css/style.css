@@ -8,7 +8,7 @@
     display: inline-block; }
     .header .header-inf-cont .inf {
       font-size: 15px;
-      margin-top: 15px;
+      margin-top: 25px;
       font-style: italic;
       font-family: 'Noto Sans', sans-serif; }
     .header .header-inf-cont .head-icon {
@@ -174,7 +174,7 @@
 
 .fa-facebook:hover {
   transform: scale(1.2);
-  color: #1b18c4; }
+  color: #3432ca; }
 
 .fa-instagram:hover {
   transform: scale(1.2);
