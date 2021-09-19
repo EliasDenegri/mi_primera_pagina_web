@@ -17,6 +17,8 @@
 /* NAVEGADOR */
 .nav {
   background-color: #456576; }
+  .nav a:hover {
+    background-color: rgba(89, 129, 175, 0.363); }
 
 /*SECCION*/
 .fondo {
@@ -139,8 +141,11 @@
   color: #ffffff;
   /*Whatsapp*/ }
   .footer .quienes-somos {
+    display: inline-block;
     text-decoration: none;
     color: #ffffff; }
+    .footer .quienes-somos h6:hover {
+      border-bottom: #ffffff solid; }
   .footer .footer-icon {
     text-decoration: none;
     color: #ffffff;
@@ -270,7 +275,7 @@ textarea {
   border-radius: 200px; }
 
 .icon-tres {
-  margin-top: 15px;
+  margin-top: 20px;
   color: #ffffff;
   font-size: 90px; }
 

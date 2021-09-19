@@ -4,8 +4,15 @@
     color: #ffffff;
 
     .quienes-somos {
+        display: inline-block;
         text-decoration: none;
         color: #ffffff;
+        
+            h6:hover {
+            border-bottom: #ffffff solid;
+            }
+
+    
     }
 
     .footer-icon {

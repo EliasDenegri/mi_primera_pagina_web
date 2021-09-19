@@ -27,6 +27,11 @@
 /* NAVEGADOR */
 .nav {
     background-color: $celesteOscuro;
+
+        a:hover {
+            background-color: rgba(89, 129, 175, 0.363);
+        }
+
 }
 
 
